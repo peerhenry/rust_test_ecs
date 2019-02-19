@@ -1,6 +1,6 @@
 use gl::types::*;
 use cgmath::{ Matrix4 };
-use camera_builder::PerspectiveCamera;
+use crate::camera_builder::PerspectiveCamera;
 
 pub struct GameState {
   // assets

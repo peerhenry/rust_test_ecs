@@ -1,9 +1,9 @@
 use std::mem::size_of;
 use gl::types::*;
 use cgmath::{ Matrix4, SquareMatrix };
-use GameState;
-use VaoBuilder;
-use AttribParameters;
+use crate::GameState;
+use crate::VaoBuilder;
+use crate::AttribParameters;
 
 pub fn add_triangle(game: &mut GameState) {
   // buffers
