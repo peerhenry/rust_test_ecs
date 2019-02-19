@@ -1,6 +1,5 @@
 use std::ptr;
 use std::ffi::CString;
-extern crate gl;
 use gl::types::*;
 
 pub struct ShaderProgramBuilder {

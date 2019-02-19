@@ -1,11 +1,8 @@
 // std
 use std::ffi::{CStr};
 // external crates
-extern crate gl;
 use gl::types::*;
-extern crate glutin;
 use glutin::{GlContext, GlWindow, EventsLoop};
-extern crate cgmath;
 use cgmath::{ Rad, Deg, Matrix, Matrix4, Point3, Vector3 };
 // modules
 mod context;

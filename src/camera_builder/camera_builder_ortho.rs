@@ -1,6 +1,5 @@
 use gl::types::*;
 use cgmath::{ Matrix4, Ortho, Point3, Vector3 };
-use std::cmp::max;
 
 pub struct OrthoCamera {
   // view
